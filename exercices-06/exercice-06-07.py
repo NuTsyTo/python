@@ -7,3 +7,8 @@ my_list = ['foo', 'bar', 'baz', 'lorem', 'ipsum']
 
 # réponse 6.7
 
+my_list = ['foo', 'bar', 'baz', 'lorem', 'ipsum']
+my_list2 = ['bar', 'lorem']
+my_list[1] = my_list[3]
+my_list[3] = my_list2[0]
+print(my_list)

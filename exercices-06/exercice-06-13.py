@@ -6,4 +6,8 @@
 my_list = [2.71, 42, 123, 2, 3.14, 1.61]
 
 # réponse 6.13
-
+for number in my_list:
+    print(number)
+    number2 = number * 100
+    my_list = number2
+    print(my_list)

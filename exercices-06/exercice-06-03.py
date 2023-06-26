@@ -6,5 +6,5 @@ my_list = ['foo', 'bar', 'baz', 'lorem', 'ipsum']
 # réponse 6.3
 
 my_list = ['foo', 'bar', 'baz', 'lorem', 'ipsum']
-my_list.insert(5, 'toto')
+my_list.append('toto')
 print(my_list)

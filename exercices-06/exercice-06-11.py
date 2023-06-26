@@ -9,3 +9,9 @@ my_list = [2.71, 42, 123, 2, 3.14, 1.61]
 
 # réponse 6.11
 
+for i, valeur in enumerate (my_list):
+    if valeur == 3.14:
+        print(f"{i = }, {valeur = }")
+
+
+
